@@ -1,3 +1,4 @@
 body{
     background-color: orangered;
+    background: linear-gradient(-45deg, #69c8e7 0%, #49d3b4 100%);
 }
