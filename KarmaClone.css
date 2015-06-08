@@ -425,7 +425,12 @@ td,
 th {
   padding: 0;
 }
+
+/*BEGIN*/
+
 body{
-    background-color: orangered;
-    background: linear-gradient(-45deg, #69c8e7 0%, #49d3b4 100%);
+    background-color: lightgray;
+}
+div{
+    border:1px solid Chocolate;
 }
