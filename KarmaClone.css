@@ -13,7 +13,13 @@ header{
     width:100%;
     background-color:white;
 }
-.mini-header-logo{  
+.mini-header-logo{
+    display:inline-block;
+    margin-left:400px;
+}
+.horizontal-nav-list-container{
+    width:600px;
+    height:60px;
 }
 .horizontal-nav-list li{
     display:inline-block;
