@@ -1,6 +1,20 @@
 body{
     background-color: lightgray;
 }
-div{
+div, header{
     border:1px solid Chocolate;
 }
+p{
+    font-family:Open Sans, Helvetica Neue, sans-serif;
+    font-weight:300;
+}
+header{
+    height:75px;
+    width:100%;
+    background-color:white;
+}
+.mini-header-logo{
+   resize:both 20%;
+    
+}
+    
