@@ -13,8 +13,9 @@ header{
     width:100%;
     background-color:white;
 }
-.mini-header-logo{
-   resize:both 20%;
-    
+.mini-header-logo{  
+}
+.horizontal-nav-list li{
+    display:inline-block;
 }
     
