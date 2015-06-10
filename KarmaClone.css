@@ -17,10 +17,6 @@ header{
     display:inline-block;
     margin-left:400px;
 }
-.horizontal-nav-list-container{
-    width:600px;
-    height:60px;
-}
 .horizontal-nav-list li{
     display:inline-block;
 }
