@@ -21,12 +21,18 @@ nav, .nav-container{
     max-height:60%;
     margin-top:10px;
 }
-.horizontal-nav-list{
+/*.horizontal-nav-list{
    float:right;
     margin-right:20%
-}
+}*/
 .horizontal-nav-list li{
     display:inline-block;
-    posotion:relative;
+    position:relative;
+}
+.horizontal-nav-list{
+    margin:auto;
+    margin-left:30%;
+    position:relative;
+    /*Margin within div container relativizes it!*/
 }
     
