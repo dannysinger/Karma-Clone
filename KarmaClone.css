@@ -1,3 +1,4 @@
+/* @ When is the right time to use floats within wider sections vs. strategically placed centering containers?*/
 body{
     background-color: lightgray;
     font-family:Open Sans, Helvetica Neue, sans-serif;
@@ -17,9 +18,9 @@ nav, .nav-container{
 }
 .mini-header-logo{
    /* margin-left:400px;*/
+    /*margin:10px 10px;*/
     max-wdith:60%;
-    max-height:60%;
-    margin-top:10px;
+    max-height:60%:
 }
 /*.horizontal-nav-list{
    float:right;
@@ -27,12 +28,16 @@ nav, .nav-container{
 }*/
 .horizontal-nav-list li{
     display:inline-block;
-    position:relative;
+    padding:2%;
+    position:;
 }
 .horizontal-nav-list{
     margin:auto;
-    margin-left:30%;
-    position:relative;
+    margin-left:40%;
+    margin-top:-4%;
+    position:;
+    /*Don't know why about -3% for margin-top*/
     /*Margin within div container relativizes it!*/
+    /*Having position:relative assigned to the container + the list don't seem to do shit*/
 }
     
