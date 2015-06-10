@@ -12,9 +12,9 @@ header{
     background-color:white;
 }
 .mini-header-logo{
-    display:inline-block;
     margin-left:400px;
-    position:absolute;
+    max-wdith:100%;
+    max-height:100%;
 }
 .horizontal-nav-list{
     float:right;
