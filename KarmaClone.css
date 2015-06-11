@@ -14,24 +14,12 @@ body{
     font-size:16px;
     letter-spacing:0.03em;
 }
-a{
-    color:838994;
-    text-decoration:none;
-}
-a:hover{
-    color: black;
-}
-.horizontal-nav-list .active{
-    color:black;
-    font-weight:500;
-}
-div, nav{
-    border:1px solid Chocolate;
-}
+
 nav, .nav-container{
     height:70px;
     /*width:100%;*/
     background-color:white;
+    border:1px solid Chocolate;
 }
 .nav-container{
     margin:0 auto/*Make content always centered*/;
@@ -60,6 +48,17 @@ nav, .nav-container{
     /*Don't know why about -3% for margin-top*/
     /*Margin within div container relativizes it!*/
     /*Having position:relative assigned to the container + the list don't seem to do shit*/
+}
+a{
+    color:838994;
+    text-decoration:none;
+}
+a:hover{
+    color: black;
+}
+.active{
+    color:black;
+    font-weight:500;
 }
 .horizontal-nav-list li{
     display:inline-block;
