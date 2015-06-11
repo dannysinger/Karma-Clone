@@ -15,12 +15,14 @@ nav, .nav-container{
 .nav-container{
     margin:0 auto/*Make content always centered*/;
     width:970px;
+    padding:0px 15px;
+    box-sizing: border-box;
 }
 .mini-header-logo{
    /* margin-left:400px;*/
     /*margin:10px 10px;*/
     max-wdith:60%;
-    max-height:60%:
+    max-height:60%;
 }
 /*.horizontal-nav-list{
    float:right;
@@ -33,8 +35,9 @@ nav, .nav-container{
 }
 .horizontal-nav-list{
     margin:auto;
-    margin-left:40%;
-    margin-top:-4%;
+    float:right;
+    /*margin-left:40%;
+    margin-top:-4%;*/
     position:;
     /*Don't know why about -3% for margin-top*/
     /*Margin within div container relativizes it!*/
