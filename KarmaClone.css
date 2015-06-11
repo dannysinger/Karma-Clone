@@ -1,6 +1,12 @@
 /* @ When is the right time to use floats within wider sections vs. strategically placed centering containers?*/
-html{-webkit-font-smoothing:antialised;}
-li{-webkit-font-smoothing:antialised;}
+html {
+
+text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+
+}
+
 body{
     background-color: lightgray;
     font-family:Roboto, sans-serif;
