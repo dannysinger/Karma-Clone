@@ -1,9 +1,19 @@
 /* @ When is the right time to use floats within wider sections vs. strategically placed centering containers?*/
+html{-webkit-font-smoothing:antialised;}
+li{-webkit-font-smoothing:antialised;}
 body{
     background-color: lightgray;
-    font-family:Open Sans, Helvetica Neue, sans-serif;
+    font-family:Roboto, sans-serif;
     font-weight:300;
+    font-size:16px;
+    letter-spacing:0.03em;
 }
+a{
+    color:838994;
+    text-decoration:none;
+}
+a:hover{
+    color: black;}
 div, nav{
     border:1px solid Chocolate;
 }
@@ -16,11 +26,12 @@ nav, .nav-container{
     margin:0 auto/*Make content always centered*/;
     width:970px;
     padding:0px 15px;
-    box-sizing: border-box;
+    /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
+    box-sizing:border-box;
 }
 .mini-header-logo{
    /* margin-left:400px;*/
-    /*margin:10px 10px;*/
+    margin:10px 10px;
     max-wdith:60%;
     max-height:60%;
 }
@@ -30,14 +41,14 @@ nav, .nav-container{
 }*/
 .horizontal-nav-list li{
     display:inline-block;
-    padding:2%;
+    /*padding:2%;*/
     position:;
 }
 .horizontal-nav-list{
     margin:auto;
     float:right;
-    /*margin-left:40%;
-    margin-top:-4%;*/
+    /*margin-left:40%;*/
+    margin-top:2%;*/
     position:;
     /*Don't know why about -3% for margin-top*/
     /*Margin within div container relativizes it!*/
