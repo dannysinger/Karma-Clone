@@ -94,6 +94,9 @@ a:hover{
 
 /*Middle Section*/
 
+.scorched-earth, .middle-section-container{
+    border: 1px solid white;
+}
 .scorched-earth{
     background-image:url(/images/scorched-earth.jpg);
     background-size:cover;
@@ -101,18 +104,32 @@ a:hover{
     height:45rem;
     position:absolute;
 }
-.middle-heading, .middle-h2, .middle-button-text{
-    font-weight:300;
-}
 .middle-section-container{
     color:#E0FFEF;
     margin-left:auto;
     margin-right:auto;
     text-align:center;
     margin-top:20rem;
-    height:10rem;
-    width:20rem;
+    height:20rem;
+    width:40rem;
 }
+.middle-heading, .middle-h2, .middle-button-text{
+    font-weight:300;
+}
+.middle-heading{
+    font-size:4rem;
+}
+.middle-h2{
+    font-size:2rem;
+}
+.middle-button{
+    height:1rem;
+    width:3rem;
+    background-color:blue;
+    border-radius:20%;
+    margin-left:auto;
+    margin-right:auto;
+    
 
 
 
