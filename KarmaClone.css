@@ -30,8 +30,10 @@ nav, .nav-container{
     /*width:100%;*/
     /*background-color:#FBD380;*/
     /*background-color:#FDE5B3;*/
-    background-color:#E0FFEF;
-    border:1px solid Chocolate;
+    /*background-color:#E0FFEF;*/
+    background-color:#D46731;
+    /*background-color:#EAB398;*/
+    border:1px solid white;
     /*Interesting that you don't need a height property here to show the shit*/
 }
 
@@ -74,7 +76,7 @@ nav, .nav-container{
 
 a{
     /*color:838994;*/
-    color:black;
+    color:#E0FFEF;
     text-decoration:none;
 }
 a:hover{
@@ -110,10 +112,11 @@ a:hover{
     margin-right:auto;
     text-align:center;
     margin-top:20rem;
-    height:20rem;
+    height:17rem;
     width:40rem;
 }
-.middle-heading, .middle-h2, .middle-button{}
+.middle-heading, .middle-h2, .middle-button{
+}
 .middle-heading, .middle-h2, .middle-button-text{
     font-weight:300;
 }
@@ -122,13 +125,19 @@ a:hover{
 }
 .middle-h2{
     font-size:2rem;
+    margin-top:-2rem;
 }
 .middle-button{
     height:3rem;
     width:8rem;
-    background-color:blue;
+    background-color:#A37564;
     border-radius:5%;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-0.5rem;
+}
+.middle-button:hover{
+    background-color:D46731;
 }
 .middle-button-text{
     text-align:center;
