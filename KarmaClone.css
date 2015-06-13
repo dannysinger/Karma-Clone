@@ -145,6 +145,7 @@ a:hover{
     margin-left:auto;
     margin-right:auto;
     margin-top:-0.5rem;
+    /*Is the way they made the button better? Using two divs and a BUTTON semantic?*/
 }
 .middle-button:hover{
     background-color:D46731;
