@@ -108,13 +108,16 @@ a:hover{
 }
 .middle-section-container{
     color:#E0FFEF;
-    margin-left:auto;
+    /*margin-left:auto;
     margin-right:auto;
     text-align:center;
     margin-top:20rem;
     height:17rem;
-    width:40rem;
+    width:40rem;*/
     border-radius:2.5%;
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
 }
 .middle-heading, .middle-h2, .middle-button{
 }
@@ -123,6 +126,8 @@ a:hover{
 }
 .middle-heading{
     font-size:4rem;
+    margin-top:17.5rem; /*Updated Property*/
+    text-align:center; /*Updated Property*/
 }
 .middle-h2{
     font-size:2rem;
@@ -154,29 +159,34 @@ a:hover{
 
 
 /*Responsive Design*/
+/*The shit seems to appear in dev tools in my version only when I zoom in*/
+/*Mabye cuz it's on another stylesheet*/
 
 
 @media (min-width: 48rem) {
     .nav-container {
         width: 46rem;
-    }
+    }}
+@media (min-width: 48rem){
     .middle-section-container{
-        46rem;
-}
+        width:46rem;
+}}
 @media (min-width: 62rem) {
     .nav-container {
         width: 60rem;
     }
+@media (min-width: 62rem) {
     .middle-section-container{
-        width:60rem
+        width:60rem;
     }
 }
 @media (min-width: 75rem) {
     .nav-container {
         width: 60%;
-    }
+    }}
+@media (min-width: 75rem) {
     .middle-section-container{
-        width:60%
+        width:60%;
     }
 }
 
