@@ -118,7 +118,12 @@ a:hover{
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
+    height:173px;
+    /*THE FIXED HEIGHT MAKES MY TOP BAR JUMP OUT!*/
+    /*vertical-align:baseline;
+    box-sizing:border-box; Can't Seem to find the div height property in the original source*/
 }
+/*My h3 is their h2... is that for semantic reasons?*/
 .middle-heading, .middle-h2, .middle-button{
 }
 .middle-heading, .middle-h2, .middle-button-text{
@@ -132,6 +137,7 @@ a:hover{
 .middle-h2{
     font-size:2rem;
     margin-top:-2rem;
+    text-align:center; /*Updated Property*/
 }
 .middle-button{
     height:3rem;
