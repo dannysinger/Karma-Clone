@@ -114,6 +114,7 @@ a:hover{
     margin-top:20rem;
     height:17rem;
     width:40rem;
+    border-radius:2.5%;
 }
 .middle-heading, .middle-h2, .middle-button{
 }
@@ -159,15 +160,23 @@ a:hover{
     .nav-container {
         width: 46rem;
     }
+    .middle-section-container{
+        46rem;
 }
 @media (min-width: 62rem) {
     .nav-container {
         width: 60rem;
     }
+    .middle-section-container{
+        width:60rem
+    }
 }
 @media (min-width: 75rem) {
     .nav-container {
         width: 60%;
+    }
+    .middle-section-container{
+        width:60%
     }
 }
 
