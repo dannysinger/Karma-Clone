@@ -114,12 +114,10 @@ a:hover{
     margin-top:20rem;
     height:17rem;
     width:40rem;*/
-    border-radius:2.5%;
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
-    height:173px;
-    /*THE FIXED HEIGHT MAKES MY TOP BAR JUMP OUT!*/
+    /*height:173px;*/
     /*vertical-align:baseline;
     box-sizing:border-box; Can't Seem to find the div height property in the original source*/
 }
