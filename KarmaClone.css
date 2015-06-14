@@ -95,7 +95,7 @@ a:hover{
 }
 
 /*Middle Section*/
-
+/*With no positioning functions, the margin-top automatically moves the all of the text up*/
 .scorched-earth, .middle-section-container{
     border: 1px solid white;
 }
@@ -121,7 +121,7 @@ a:hover{
     /*vertical-align:baseline;
     box-sizing:border-box; Can't Seem to find the div height property in the original source*/
 }
-/*My h3 is their h2... is that for semantic reasons?*/
+/*My h2 is their h3... is that for semantic reasons?*/
 .middle-heading, .middle-h2, .middle-button{
 }
 .middle-heading, .middle-h2, .middle-button-text{
@@ -147,6 +147,9 @@ a:hover{
     margin-top:-0.5rem;
     /*Is the way they made the button better? Using two divs and a BUTTON semantic?*/
 }
+/*Having a button semantic seems to only need a text align command (on the outside div) to center itself, and the button seems to build itself around the text*/
+/*Just a width specification on the button semantic, and the height seems to take the property of the outside div*/
+/*Add a padding on the <button>adsfadfa</button> and there we go.*/
 .middle-button:hover{
     background-color:D46731;
 }
