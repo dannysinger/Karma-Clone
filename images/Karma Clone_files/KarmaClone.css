@@ -35,6 +35,7 @@ nav{
     z-index:9999;
     width:100%;
     background-color:#D46731;
+    border:1px solid white;
     /*need width 100% for these properties to work*/
 }
 
@@ -45,6 +46,7 @@ nav{
     width:970px;
     height:4.375rem;
     background-color:#D46731;
+    border:1px solid white;
     /*padding:0px 15px;*/
     /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
     box-sizing:border-box;
@@ -161,7 +163,7 @@ a:hover{
 }
 .middle-button-text{
     text-align:center;
-    /*vertical-align:middle;*/
+    vertical-align:middle;
     line-height:3rem;
     margin: 0 auto;
     /*Could I have done this process on my navbar list?*/
