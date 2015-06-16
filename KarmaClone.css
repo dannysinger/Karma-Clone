@@ -61,10 +61,13 @@ nav{
     max-height:60%;
 }
 
+
+/*Horizontal List: Auto?X4 Margin, Right Float, Margin-top Added, font size, NO position*/
 /*.horizontal-nav-list{
    float:right;
     margin-right:20%
 }*/
+
 .horizontal-nav-list{
     margin:auto;
     float:right;
@@ -72,9 +75,6 @@ nav{
     margin-top:25px;*/
     position:;
     font-size:1.04rem;
-    /*Don't know why about -3% for margin-top*/
-    /*Margin within div container relativizes it!*/
-    /*Having position:relative assigned to the container + the list don't seem to do shit*/
 }
 
 a{
