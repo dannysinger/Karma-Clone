@@ -1,4 +1,5 @@
-/*Note... .CONTENT in their version is an eternal box spanning the semantics, which serves to align the logo and the top nav list in a centered manner with a generalized centered frame of reference*/
+/*Note... .CONTENT in their version is an eternal box spanning the semantics, which serves to align the logo and the top nav list in a centered manner with a generalized centered frame of reference.*/
+/*NOTE / BUTTONS... What is the best way to create a centered button aligned as in this format? Or is it more about general adaptability and this is a waste of time*/
 
 /*HTML::: Font Smoothing Antialised !Important*/
 
@@ -38,7 +39,7 @@ nav{
     /*need width 100% for these properties to work*/
 }
 
-/*NAV Container (.content)::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX3in1, MinWidth*/
+/*NAV Container (.content)::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX2in1, MinWidth*/
 
 .nav-container{
     margin:0 auto/*Make content always centered*/;
@@ -112,6 +113,9 @@ a:hover{
     height:45rem;
     position:absolute;
 }
+
+/*.CONTENT!!! Note the simplicity. padding0,X, Margin 0 auto, min-width*/
+
 .middle-section-container{
     color:#E0FFEF;
     /*margin-left:auto;
@@ -127,12 +131,15 @@ a:hover{
     /*vertical-align:baseline;
     box-sizing:border-box; Can't Seem to find the div height property in the original source*/
 }
+
 /*My h2 is their h3... is that for semantic reasons?*/
-.middle-heading, .middle-h2, .middle-button{
-}
+
+/*Font Weight for middle elements*/
 .middle-heading, .middle-h2, .middle-button-text{
     font-weight:300;
 }
+
+/*Middle text Elements*/
 .middle-heading{
     font-size:4rem;
     margin-top:17.5rem; /*Updated Property*/
@@ -143,19 +150,32 @@ a:hover{
     margin-top:-2rem;
     text-align:center; /*Updated Property*/
 }
+
+/*Middle Button*/
+
 .middle-button{
     height:3rem;
     width:8rem;
     background-color:#A37564;
     border-radius:5%;
-    margin-left:auto;
+    margin: 1rem auto;
+    /*Button + Optional Extra Container Notes*/
+    /*margin-left:auto;
     margin-right:auto;
-    margin-top:-0.5rem;
-    /*Is the way they made the button better? Using two divs and a BUTTON semantic?*/
+    margin-top:-0.5rem;*/
+    /*
+    Is the way they made the button better? Using two divs and a BUTTON semantic?
+    */
+    /*
+Having a button semantic (within an extra div?) seems to only need a text align command (on the outside div) to center itself, and the button seems to build itself around the text
+*/
+    /*
+    Just a width specification on the button semantic, and the height seems to take the property of the outside div
+    */
+    /*
+    Add a padding on the <button>adsfadfa</button> and there we go.
+    */
 }
-/*Having a button semantic seems to only need a text align command (on the outside div) to center itself, and the button seems to build itself around the text*/
-/*Just a width specification on the button semantic, and the height seems to take the property of the outside div*/
-/*Add a padding on the <button>adsfadfa</button> and there we go.*/
 .middle-button:hover{
     background-color:D46731;
 }
@@ -212,7 +232,8 @@ a:hover{
     50% {margin-top: 2rem;}
 }
 
-/*PREVIOUSVERSION nav, .nav-container{
+/*
+PREVIOUS VERSION nav, .nav-container{
     height:70px;
     width:100%;
     background-color:#FBD380;
@@ -220,5 +241,6 @@ a:hover{
     background-color:#E0FFEF;
     background-color:#EAB398;
     Interesting that you don't need a height property here to show the shit
-}*/
+}
+*/
     
