@@ -34,7 +34,7 @@ nav{
     /*need width 100% for these properties to work*/
 }
 
-/*NAV Container::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX3in1, MinWidth*/
+/*NAV Container (.content)::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX3in1, MinWidth*/
 
 .nav-container{
     margin:0 auto/*Make content always centered*/;
@@ -98,7 +98,8 @@ a:hover{
 }
 
 /*Middle Section*/
-/*With no positioning functions, the margin-top automatically moves the all of the text up*/
+/*Note The simple use of Margin: 0 Auto to position the middle-section or .content*/
+
 .scorched-earth, .middle-section-container{
     border: 1px solid white;
 }
