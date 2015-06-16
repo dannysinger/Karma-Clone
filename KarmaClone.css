@@ -105,6 +105,9 @@ a:hover{
 
 /*Middle Section*/
 /*Note The simple use of Margin: 0 Auto to position the middle-section or .content*/
+/*
+You may also notice that the Karma website has chopped off much of the top of their image. This is achieved by setting the background-position: 0 bottom and making sure to give the section a height. See if you can find the exact value for the height by inspecting the Karma website (hint: it's just under 600px). Also see if you can make the image fixed to the center.
+*/
 
 .scorched-earth{
     background-image:url(/images/scorched-earth.jpg);
