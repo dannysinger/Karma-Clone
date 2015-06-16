@@ -1,3 +1,5 @@
+/*HTML::: Font Smoothing Antialised !Important*/
+
 html {
 
 text-rendering: optimizeLegibility !important;
@@ -5,6 +7,8 @@ text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 
 }
+
+/*Body::: Basic Font Size, Weight, Family, Letter Spacing, ?Vertical Align Baseline?*/
 
 body{
     background-color: lightgray;
@@ -15,32 +19,27 @@ body{
     vertical-align:baseline;
 }
 
-/*Top Navbar*/
+/*TOP NAVBAR*/
+
+/*NAV Semantic::: Fixed, Z Index, 100% Width, BGcolor */
 
 nav{
     position:fixed;
     z-index:9999;
     width:100%;
+    background-color:#D46731;
+    border:1px solid white;
     /*need width 100% for these properties to work*/
 }
 
-nav, .nav-container{
-    /*height:70px;*/
-    
-    /*width:100%;*/
-    /*background-color:#FBD380;*/
-    /*background-color:#FDE5B3;*/
-    /*background-color:#E0FFEF;*/
-    background-color:#D46731;
-    /*background-color:#EAB398;*/
-    border:1px solid white;
-    /*Interesting that you don't need a height property here to show the shit*/
-}
+/*NAV Container::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX3in1, MinWidth*/
 
 .nav-container{
     margin:0 auto/*Make content always centered*/;
     width:970px;
     height:4.375rem;
+    background-color:#D46731;
+    border:1px solid white;
     /*padding:0px 15px;*/
     /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
     box-sizing:border-box;
@@ -50,6 +49,8 @@ nav, .nav-container{
     /*There is also a vertical-align:baseline which may have an effect*/
     vertical-align:baseline;
 }
+
+/*Logo On Left of ALIGNED Container... ""CONTENT"" MarginX2, RESIZED PNG*/
 
 .mini-header-logo{
    /* margin-left:400px;*/
@@ -160,13 +161,9 @@ a:hover{
     /*Could I have done this process on my navbar list?*/
 }
     
-    
-
-
-
-
-
+  
 /*Responsive Design*/
+
 /*The shit seems to appear in dev tools in my version only when I zoom in*/
 /*Mabye cuz it's on another stylesheet*/
 
@@ -182,7 +179,7 @@ a:hover{
 @media (min-width: 62rem) {
     .nav-container {
         width: 60rem;
-    }
+    }}
 @media (min-width: 62rem) {
     .middle-section-container{
         width:60rem;
@@ -209,5 +206,13 @@ a:hover{
     50% {margin-top: 2rem;}
 }
 
-
+/*PREVIOUSVERSION nav, .nav-container{
+    height:70px;
+    width:100%;
+    background-color:#FBD380;
+    background-color:#FDE5B3;
+    background-color:#E0FFEF;
+    background-color:#EAB398;
+    Interesting that you don't need a height property here to show the shit
+}*/
     
