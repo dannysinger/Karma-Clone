@@ -1,5 +1,8 @@
 /*Note... .CONTENT in their version is an eternal box spanning the semantics, which serves to align the logo and the top nav list in a centered manner with a generalized centered frame of reference.*/
+
 /*NOTE / BUTTONS... What is the best way to create a centered button aligned as in this format? Or is it more about general adaptability and this is a waste of time*/
+
+/*Note .... COLORS and background image issue would have to have been fixed if using CONTENT div*/
 
 /*HTML::: Font Smoothing Antialised !Important*/
 
@@ -14,17 +17,16 @@ text-rendering: optimizeLegibility !important;
 /*Body::: Basic Font Size, Weight, Family, Letter Spacing, ?Vertical Align Baseline?*/
 
 body{
-    background-color: lightgray;
+    background-color:white;
     font-family:Roboto, sans-serif;
     font-weight:400;
     font-size:16px;
     letter-spacing:0.03em;
     vertical-align:baseline;
-    border:1px solid white;
 }
 
-section, div, nav{ 
-    border: 1px solid white;
+div{ 
+    border: 1px solid chocolate;
 }
 
 /*TOP NAVBAR*/
@@ -42,11 +44,11 @@ nav{
 /*NAV Container (.content)::: MinWidthREMbody, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX2in1*/
 
 .nav-container{
+    background-color:#FFB587;
     margin:0 auto/*Make content always centered*/;
     /*width:970px;*/
     min-width:37.5em;
     height:4.375rem;
-    background-color:#FFB587;
     /*padding:0px 15px;*/
     /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
     box-sizing:border-box;
@@ -114,7 +116,7 @@ You may also notice that the Karma website has chopped off much of the top of th
     background-image:url(/images/scorched-earth.jpg);
     background-size:cover;
     width:100%;
-    height:45rem;
+    height:52rem;
     position:absolute;
 }
 
@@ -198,8 +200,52 @@ Having a button semantic (within an extra div?) seems to only need a text align 
     
     /*Could I have done this process on my navbar list?*/
 }
-    
-  
+
+/*3 ICON SECTION*/
+
+/*Everyone needs a little Karma... There is no top to the containing div since used previous class*/
+
+.everyone{
+    margin-top:60rem;
+    font-size:3rem;
+    text-align:center;
+    font-weight:300;
+    color:maroon;
+}
+
+/*Using seperate container method for centering icons*/
+
+.icon-container{
+    max-width:50rem;
+    margin:0 auto;
+}
+.threeicons{
+    margin:2rem 4.2rem;
+}
+
+/*Descriptions...MaxWidth + InlineBlock for horizontal divs, Margin left using child method to align with buttons*/
+/*Looks like the description divs were center-aligned with "everyoneNeeds" and the images got shifted according to the example*/
+
+.descriptions{
+    max-width:18rem;
+    display:inline-block;
+    text-align:center;
+}
+.descriptions h2{
+    font-weight:400;
+    font-size:1.6rem;
+}
+.descriptions:first-child{
+    margin-left:19rem;    
+}
+.descriptions:nth-child(2) h2{
+    padding:0 0.5rem;
+}
+.descriptions:nth-child(3) h2{
+    padding:0 1rem;
+}
+
+
 /*Responsive Design*/
 
 /*The shit seems to appear in dev tools in my version only when I zoom in*/
@@ -232,6 +278,8 @@ Having a button semantic (within an extra div?) seems to only need a text align 
         width:60%;
     }
 }
+
+/*KEYFRAMES*/
 
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
