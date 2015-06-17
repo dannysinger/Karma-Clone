@@ -39,7 +39,7 @@ nav{
     /*need width 100% for these properties to work*/
 }
 
-/*NAV Container (.content)::: WidthPX, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX2in1, MinWidth*/
+/*NAV Container (.content)::: MinWidthREMbody, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX2in1*/
 
 .nav-container{
     margin:0 auto/*Make content always centered*/;
@@ -66,8 +66,7 @@ nav{
     max-height:60%;
 }
 
-
-/*Horizontal List: Auto?X4 Margin, Right Float, Margin-top Added, font size, NO position*/
+/*Horizontal List: Auto?X4 Margin, Right Float, Margin-top AddedPX, font size, NO position*/
 /*.horizontal-nav-list{
    float:right;
     margin-right:20%
