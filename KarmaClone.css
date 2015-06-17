@@ -35,7 +35,7 @@ nav{
     position:fixed;
     z-index:9999;
     width:100%;
-    background-color:#D46731;
+    background-color:#FFB587;
     /*need width 100% for these properties to work*/
 }
 
@@ -43,9 +43,10 @@ nav{
 
 .nav-container{
     margin:0 auto/*Make content always centered*/;
-    width:970px;
+    /*width:970px;*/
+    min-width:37.5em;
     height:4.375rem;
-    background-color:#D46731;
+    background-color:#FFB587;
     /*padding:0px 15px;*/
     /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
     box-sizing:border-box;
@@ -91,14 +92,15 @@ nav{
 }
 a{
     /*color:838994;*/
-    color:#E0FFEF;
+    /*color:#E0FFEF;*/
+    color:maroon;
     text-decoration:none;
 }
 a:hover{
-    color: 838994;
+    color: #20346F;
 }
 .active{
-    color:2E4A9E;
+    color:#20346F;
     font-weight:500;
 }
 
@@ -120,7 +122,8 @@ You may also notice that the Karma website has chopped off much of the top of th
 /*.CONTENT!!! Note the simplicity. padding0,X, Margin 0 auto, min-width*/
 
 .middle-section-container{
-    color:#E0FFEF;
+    /*color:#66A266;*/
+    color:greenyellow;
     /*margin-left:auto;
     margin-right:auto;
     text-align:center;
@@ -152,14 +155,17 @@ You may also notice that the Karma website has chopped off much of the top of th
     font-size:2rem;
     margin-top:-2rem;
     text-align:center; /*Updated Property*/
+    color:A0FFE8;
 }
 
 /*Middle Button*/
 
 .middle-button{
-    height:3rem;
-    width:8rem;
-    background-color:#A37564;
+    height:4rem;
+    width:9rem;
+    /*background-color:#B1DF51;*/
+    /*background-color:#DFCB51;*/
+    background-color:#4A0001;
     border-radius:5%;
     margin: 1rem auto;
     /*Button + Optional Extra Container Notes*/
@@ -181,12 +187,16 @@ Having a button semantic (within an extra div?) seems to only need a text align 
 }
 .middle-button:hover{
     background-color:D46731;
+    cursor:pointer;
 }
 .middle-button-text{
     text-align:center;
     /*vertical-align:middle;*/
-    line-height:3rem;
-    margin: 0 auto;
+    line-height:4rem;
+    margin:auto;
+    font-size:1.36rem;
+    color: #DFCB51;
+    
     /*Could I have done this process on my navbar list?*/
 }
     
