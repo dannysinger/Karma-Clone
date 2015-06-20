@@ -2,7 +2,8 @@
 
 /*NOTE / BUTTONS... What is the best way to create a centered button aligned as in this format? Or is it more about general adaptability and this is a waste of time*/
 
-/*Note .... COLORS and background image issue would have to have been fixed if using CONTENT div*/
+/*Note .... COLORS and 
+?#BackgroundImageIssue? would have to have been fixed if using CONTENT div*/
 
 /*HTML::: Font Smoothing Antialised !Important*/
 
@@ -22,19 +23,20 @@ body{
     font-weight:400;
     font-size:16px;
     letter-spacing:0.03em;
-    vertical-align:baseline;
-}
-
-div{ 
+/*vertical-align:baseline;*/
     border: 1px solid chocolate;
+}
+div{ 
+  border:1px solid chocolate;
 }
 
 /*TOP NAVBAR*/
 
-/*NAV Semantic::: Fixed, Z Index, 100% Width, BGcolor */
+/*NAV Semantic::: Fixed *TOP 0*, Z Index, 100% Width, BGcolor */
 
 nav{
     position:fixed;
+    top:0;
     z-index:9999;
     width:100%;
     background-color:#FFB587;
@@ -42,12 +44,12 @@ nav{
 }
 
 /*NAV Container (.content)::: MinWidthREMbody, HeightREMbody, BGcolor, BoxSizingBorder, PaddingX2in1*/
+/*Interesting that this also doesn't have fixed position*/
 
 .nav-container{
     background-color:#FFB587;
     margin:0 auto/*Make content always centered*/;
     /*width:970px;*/
-    min-width:37.5em;
     height:4.375rem;
     /*padding:0px 15px;*/
     /*When f*cking with the btm/top padding the icon size changes! Fuck!*/
@@ -83,7 +85,7 @@ nav{
     font-size:1.04rem;
 }
 
-/*List ITEMS displayed INLINE-BLOCK, something to do with horizont probably*/
+/*List ELEMENTS displayed INLINE-BLOCK, something to do with horizont probably*/
 
 .horizontal-nav-list li{
     display:inline-block;
@@ -98,7 +100,8 @@ a{
     text-decoration:none;
 }
 a:hover{
-    color: #20346F;
+    /*color: #20346F;*/
+    color:greenyellow;
 }
 .active{
     color:#20346F;
@@ -113,6 +116,7 @@ You may also notice that the Karma website has chopped off much of the top of th
 */
 
 .scorched-earth{
+    top:4.375rem;
     background-image:url(/images/scorched-earth.jpg);
     background-size:cover;
     width:100%;
