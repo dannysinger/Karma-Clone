@@ -205,7 +205,7 @@ Having a button semantic (within an extra div?) seems to only need a text align 
     /*Could I have done this process on my navbar list?*/
 }
 
-/*3 ICON SECTION*/
+/*.cases SECTION*/
 
 /*Everyone needs a little Karma... There is no top to the containing div since used previous class*/
 
@@ -216,21 +216,10 @@ Having a button semantic (within an extra div?) seems to only need a text align 
     font-weight:300;
     color:maroon;
 }
-
-/*Using seperate container method for centering icons*/
-
-.icon-container{
-    max-width:50rem;
-    margin:0 auto;
+ul{
+    list-style:none;
 }
-.threeicons{
-    margin:2rem 4.2rem;
-}
-
-/*Descriptions...MaxWidth + InlineBlock for horizontal divs, Margin left using child method to align with buttons*/
-/*Looks like the description divs were center-aligned with "everyoneNeeds" and the images got shifted according to the example*/
-
-.descriptions{
+/*.descriptions{
     max-width:18rem;
     display:inline-block;
     text-align:center;
@@ -247,7 +236,7 @@ Having a button semantic (within an extra div?) seems to only need a text align 
 }
 .descriptions:nth-child(3) h2{
     padding:0 1rem;
-}
+}*/
 
 
 /*Responsive Design*/
