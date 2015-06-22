@@ -263,6 +263,7 @@ footer h4, ul{
     color:maroon;
     font-weight:400;
     list-style:none;
+    text-align:center;
 }
 
 /*Pay attention... The borders are now circular. We have a set width and height and radius for the li element, it is in inline-block as usual, there is a T/B padding but no L/R*/
