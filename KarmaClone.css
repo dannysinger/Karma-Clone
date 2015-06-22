@@ -209,58 +209,35 @@ Having a button semantic (within an extra div?) seems to only need a text align 
 
 /*Everyone needs a little Karma... There is no top to the containing div since used previous class*/
 
-.cases{
-    overflow:hidden;
-    padding-bottom:5rem;
-}
-.cases .middle-container{
-    margin-top:7.785rem;
-    text-align:center;
-    display:inline-block;
-    width:100%;
-}
-.everyone{
+.cases .everyone{
     margin-top:60rem;
     font-size:3rem;
     text-align:center;
     font-weight:300;
     color:maroon;
 }
-ul{
+
+/*.cases .middle-section container doesn't actually contain the shit inside of it, that's the only thing I don't understand...*/
+
+.cases .middle-section-container{
+    margin-top:7.785rem;
+    text-align:center;
+}
+.cases ul{
     list-style:none;
 }
-.devices{
-    width:30%;
-}
-.cases>.middle-container>li{
+
+/*As opposed to .cases.>.middle-container>.li which seems to always fuck it up, THIS SEEMS TO WORK... Why though?*/
+.cases li{
     width:33.3333333%;
     float:left;
 }
 .cases .devices h3{
-      font-weight: 400;
+  font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5rem 0 1.875rem;
-    
-    }
-/*.descriptions{
-    max-width:18rem;
-    display:inline-block;
-    text-align:center;
+  color:maroon;
 }
-.descriptions h2{
-    font-weight:400;
-    font-size:1.6rem;
-}
-.descriptions:first-child{
-    margin-left:19rem;    
-}
-.descriptions:nth-child(2) h2{
-    padding:0 0.5rem;
-}
-.descriptions:nth-child(3) h2{
-    padding:0 1rem;
-}*/
-
 
 /*Responsive Design*/
 
@@ -319,4 +296,22 @@ PREVIOUS VERSION nav, .nav-container{
     Interesting that you don't need a height property here to show the shit
 }
 */
+/*.descriptions{
+    max-width:18rem;
+    display:inline-block;
+    text-align:center;
+}
+.descriptions h2{
+    font-weight:400;
+    font-size:1.6rem;
+}
+.descriptions:first-child{
+    margin-left:19rem;    
+}
+.descriptions:nth-child(2) h2{
+    padding:0 0.5rem;
+}
+.descriptions:nth-child(3) h2{
+    padding:0 1rem;
+}*/
     
