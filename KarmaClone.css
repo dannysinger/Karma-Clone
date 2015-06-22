@@ -109,6 +109,7 @@ a:hover{
 }
 
 
+
 /*Middle Section*/
 /*Note The simple use of Margin: 0 Auto to position the middle-section or .content*/
 /*
@@ -238,6 +239,40 @@ Having a button semantic (within an extra div?) seems to only need a text align 
   margin: 2.5rem 0 1.875rem;
   color:maroon;
 }
+
+/*footer section*/
+
+
+footer .middle-section-container{
+    margin-top:25rem;
+    border-top:1px solid greenyellow;
+    text-align:center;
+}
+
+footer h4, ul{
+    color:maroon;
+    font-weight:400;
+    list-style:none;
+}
+
+/*There is a left-margin here which serves to center the three fucking stubborn icons, seems to be responsive*/
+
+footer ul{
+    margin-left:-2.5rem;
+}
+
+footer li{
+    border:1px solid maroon;
+    border-radius:100%;
+    padding:6px;
+    display:inline-block;
+    margin:20px;
+}
+i{
+    margin:0 auto;
+}
+
+    
 
 /*Responsive Design*/
 
