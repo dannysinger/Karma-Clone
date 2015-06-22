@@ -2,6 +2,13 @@
 
 /*NOTE / BUTTONS... What is the best way to create a centered button aligned as in this format? Or is it more about general adaptability and this is a waste of time*/
 
+/*Yet another little nit squabbling detail... for some reason adding padding 0 to * centers the three bottom icons, and also centers the "descriptions" of which I thought were already centered!!! Motherfucker!!*/
+
+*{
+    padding:0;
+}
+
+
 /*HTML::: Font Smoothing Antialised !Important*/
 
 html {
@@ -21,11 +28,13 @@ body{
     font-size:16px;
     letter-spacing:0.03em;
 /*vertical-align:baseline;*/
-    border: 1px solid chocolate;
+/*    border: 1px solid chocolate;*/
 }
+/*
 div{ 
   border:1px solid chocolate;
 }
+*/
 
 /*TOP NAVBAR*/
 
@@ -234,16 +243,20 @@ Having a button semantic (within an extra div?) seems to only need a text align 
   font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5rem 0 1.875rem;
+  padding:50px;
   color:maroon;
 }
 
 /*footer section*/
 
+.social{
+    padding-bottom:9.375em;
+    text-align:center;
+}
 
 footer .middle-section-container{
-    margin-top:25rem;
+    margin-top:29rem;
     border-top:1px solid greenyellow;
-    text-align:center;
 }
 
 footer h4, ul{
@@ -252,25 +265,17 @@ footer h4, ul{
     list-style:none;
 }
 
-/*There is a left-margin here which serves to center the three fucking stubborn icons, seems to be responsive*/
+/*Pay attention... The borders are now circular. We have a set width and height and radius for the li element, it is in inline-block as usual, there is a T/B padding but no L/R*/
 
-footer ul{
-    margin-left:-2.5rem;
+footer ul li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
 }
-
-footer li{
-    border:1px solid maroon;
-    border-radius:100%;
-    padding:6px;
-    display:inline-block;
-    margin:20px;
-}
-
-i{
-    margin:0 auto;
-}
-
-    
 
 /*Responsive Design*/
 
