@@ -124,7 +124,7 @@ You may also notice that the Karma website has chopped off much of the top of th
 
 .scorched-earth{
     top:4.375rem;
-    background-image:url(/images/scorched-earth.jpg);
+    background-image:url(../images/scorched-earth.jpg);
     background-size:cover;
     width:100%;
     height:52rem;
@@ -249,7 +249,7 @@ Having a button semantic (within an extra div?) seems to only need a text align 
 
 /*footer section*/
 
-.social{
+social{
     padding-bottom:9.375em;
     text-align:center;
 }
